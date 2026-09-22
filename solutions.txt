@@ -1,0 +1,13 @@
+Naive:
+(~A & ~B & ~C & D) | (~A & ~B & C & ~D) | (~A & ~B & C & D) | (~A & B & ~C & ~D) | (~A & B & C & ~D) | (A & ~B & C & ~D) | (A & B & ~C & ~D) | (A & B & C & ~D)
+
+
+Minterm:
+(~A & ~B & D) | (C & ~D) | (B & ~D)
+
+
+Maxterm:
+~y = (B | D) & (A | D) & (~B | ~C | ~D)
+~~y = ~((B | D) & (A | D) & (~B | ~C | ~D))
+
+y = (~B | ~D) & (~A | ~D) & (B | C | D) 
